@@ -1,0 +1,15 @@
+{
+  "name": "automation-project",
+  "version": "1.0.0",
+  "description": "Automation project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-all-chrome": "testcafe chrome ./page_model/test",
+    "test-all-firefox": "testcafe firefox ./page_model/test",
+    "test-all-edge"  : "testcafe edge ./page_model/test",
+    "test-all-safari": "testcafe safari ./page_model/test"
+  },
+  "author": "Moises Perez",
+  "license": "ISC"
+}
